@@ -28,6 +28,7 @@ Cualquier duda al respecto, pueden acerarse en la ayudantía.
 - [Polars](https://pola.rs/)
 - [Glob](https://docs.python.org/3/library/glob.html)
 - [Matplotlib](https://matplotlib.org/)
+- [Seaborn](https://seaborn.pydata.org/)
 - [Plotly](https://plotly.com/python/)
 
 Recordar que para instalar una biblioteca se debe ejecutar:
@@ -36,10 +37,15 @@ Recordar que para instalar una biblioteca se debe ejecutar:
 pip install <biblioteca>
 ```
 
-Y para ocuparlas siempre se deben importar. Ejemplo:
+, y para ocuparlas siempre se deben importar antes de comenzar el código:
 
 ```python
 import pandas as pd
+import polars as pl
+from glob import glob
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
 ```
 
 ### 3. Material Externo Recomendado:
